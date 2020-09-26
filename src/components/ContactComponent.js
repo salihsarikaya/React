@@ -37,7 +37,6 @@ class Contact extends Component {
         alert("Current state is: " + JSON.stringify(values));
     }
 
-
     render() {
         
         return (
@@ -199,7 +198,10 @@ class Contact extends Component {
                             <Row className="form-group">
                                 <Label htmlFor="feedback" md={2}>Your Feedback</Label>
                                 <Col md={10}>
-                                    <Control.textarea model=".feedback" id="feedback" name="feedback"
+                                    <Control.textarea 
+                                        model=".feedback" 
+                                        id="feedback" 
+                                        name="feedback"
                                         rows="12"
                                         className="form-control"
                                     />
